@@ -76,11 +76,53 @@ header{
    width: 25px;
    height: 48px;
    background: #31cce3;
-   
+   vertical-align: middle;
+ }
+
+ .header-square.header-small span{
+   height: 32px;
+
  }
 
  .header-square .header-text{
    display: inline-block;
    padding-left: 8px;
+   vertical-align: middle;
+ }
 
+ /*ถ้ามี class "header-square"และ "header-small" ในtagเดียวกันให้ทำตามนี้*/
+ .header-square.header-small{
+   font-size: 16px;
+ }
+
+ .news-row{
+   margin-top: 24px;
+   margin-bottom: 24px;
+ }
+
+ .news-row-title{
+   font-size: 20px;
+   color: #31cce3;
+ }
+
+ .new-row-excerpt{
+   color: #a5a5a5;
+ }
+
+.search-form-container{
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+ .search-form{
+   display: inline-block;
+   width: 80%;
+ }
+
+ .hit-news-item{
+   margin-top: 12px;
+   margin-bottom: 12px;
  }
