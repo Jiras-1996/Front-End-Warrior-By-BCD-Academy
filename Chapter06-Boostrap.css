@@ -16,12 +16,18 @@ header{
  }
  
  nav{
-     display: block;
- 
-     background: #333;
+     display: block; 
      padding-top: 12px;
      padding-bottom: 12px;
      text-align: center;
+
+     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#30cce2+0,ffe24f+100 */
+background: #30cce2; /* Old browsers */
+background: -moz-linear-gradient(left,  #30cce2 0%, #ffe24f 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #30cce2 0%,#ffe24f 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #30cce2 0%,#ffe24f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30cce2', endColorstr='#ffe24f',GradientType=1 ); /* IE6-9 */
+
  }
  
  nav a{
@@ -29,6 +35,8 @@ header{
      text-decoration: none;
      padding-left: 12px;
      padding-right: 12px;
+     font-family: 'Kanit', sans-serif;
+     font-size: 18px;
  }
 
  .home-news-container{
@@ -141,4 +149,6 @@ header{
   text-decoration: none;
   color: #31cce3;
   display: inline-block;
+  padding-top: 4px;
+  padding-bottom: 4px;
  }
