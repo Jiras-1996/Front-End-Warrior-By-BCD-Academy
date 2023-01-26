@@ -126,3 +126,19 @@ header{
    margin-top: 12px;
    margin-bottom: 12px;
  }
+
+ .hit-news-title{
+  color: #31cce3;
+  vertical-align: middle;
+ }
+
+ .categories{
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+ .categories a{
+  text-decoration: none;
+  color: #31cce3;
+  display: inline-block;
+ }
