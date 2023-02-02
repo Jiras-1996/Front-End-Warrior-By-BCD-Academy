@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>NERD jQuery</title>
-    <meta charset="utf-8">
+    <head>
+        <title>NERD jQuery</title>
+        <meta charset="utf-8">
 
-    <script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery-3.6.3.min.js"></script>
 
-    <script type="text/javascript" src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
+        <script type="text/javascript" src="bootstrap-5.3.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="bootstrap-5.3.0/css/bootstrap.min.css">
 
-    <style>
-            #hidden_message{
-                display: none;
-            }
-    </style>
+        <style>
+                #hidden_message{
+                    display: none;
+                }
+        </style>
 
-    <script type="text/javascript">
-        function show_message_function()
-        {
-            $("#hidden_message").fadeIn(3000);
-        }
-        $("#show_message").click(show_message_function);
-    </script>
+    </head>
 
-</head>
-<body>
+    <body>
 
-    <div class="container" style="margin-top: 16px;">
-        <button id="show_message">แสดงข้อความ</button>
-        <div id="hidden_message">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptas labore voluptatum ipsa esse cumque inventore aliquid, libero asperiores, incidunt quos reiciendis enim at perspiciatis minima eius quisquam iste omnis?
+        <div class="container" style="margin-top: 32px;">
+            <button id="show_message">แสดงข้อความ</button>
+            <div id="hidden_message">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur voluptas labore voluptatum ipsa esse cumque inventore aliquid, libero asperiores, incidunt quos reiciendis enim at perspiciatis minima eius quisquam iste omnis?
+            </div>
         </div>
-    </div>
-   
-</body>
+
+        <script type="text/javascript">
+            function show_message_function()
+            {
+                $("#hidden_message").fadeIn(3000);
+            }
+            $("#show_message").click(show_message_function);
+        </script>
+    
+    </body>
 </html>
